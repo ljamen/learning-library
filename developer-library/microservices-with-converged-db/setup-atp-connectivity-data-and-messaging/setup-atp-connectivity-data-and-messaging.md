@@ -25,32 +25,30 @@ You will run a script that will download the connection information (wallet, tns
 
     ```
         <copy>cd $MSDATAWORKSHOP_LOCATION/atp-secrets-setup</copy>
-    ``` 
+    ```
 
 3.  execute createAll.sh and notice output creating secrets.
 
     ```
         <copy>./createAll.sh</copy>
-    ``` 
+    ```
 
   ![](images/createAll.png " ")
 
-4.  execute msdataworkshop and notice secrets for order and inventory database and users.
-
+4.  execute `msdataworkshop` and notice secrets for order and inventory database and users.
     ```
-        <copy>msdataworkshop</copy>
-        ``` 
+    <copy>msdataworkshop</copy>
+    ```
 
   ![](images/createAll.png " ")
 
-  If there is an issue, execute deleteAll.sh to delete all secrets in workshop namespace
-
+  If there is an issue, execute `deleteAll.sh` to delete all secrets in workshop namespace
     ```
-        <copy>./deleteAll.sh</copy>
-        ``` 
+    <copy>./deleteAll.sh</copy>
+    ```
 
   ![](images/deleteAll.png " ")
-  
+
 
 ## **STEP 2**: Verify and understand ATP connectivity via Helidon microservice deployment in OKE
 You will verify the connectivity from the frontend Helidon microservice to the atp admin microservice connecting to the ATP PDBs.
@@ -116,7 +114,7 @@ You will verify the connectivity from the frontend Helidon microservice to the a
 
   ![](images/33ed0b2b6316c6cdbbb2939947759119.png " ")
 
-7.  Use the URL `http://<external-IP>:8080` to open the frontend webpage.
+7.  Use the frontend LoadBalancer URL `http://<external-IP>:8080` to open the frontend webpage. If you need the External-IP URL, execute the `services` shortcut command and note the External-IP of the msdataworkshop/frontend/LoadBalancer.
 
   ![](images/testdatasourcescreen.png " ")
 
@@ -155,7 +153,7 @@ You will verify the connectivity from the frontend Helidon microservice to the a
 
     If **Setup Tables Queues and Propagation** was executed, you need to run
     **Unschedule Propagation** first.]
-    
+
     Afterwards, click **Delete Users**.
 
 
