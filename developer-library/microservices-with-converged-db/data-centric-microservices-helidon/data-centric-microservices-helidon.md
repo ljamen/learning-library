@@ -8,7 +8,7 @@ The lab will then show you metrics, health checks and probes, and tracing that h
 
 ### Objectives
 -   Create and bind OCI Service Broker to existing ATP instance
--   Setup Oracle Advanced Queuing in existing ATP instances
+-   Set up Oracle Advanced Queuing in existing ATP instances
 
 ### What Do You Need?
 

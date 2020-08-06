@@ -84,7 +84,7 @@ This lab assumes that you have already completed labs 1 through 4.
 
 ![](images/2replicas.png " ")
 
-4. Reexecute the test with 60 virtual users by executing the following command.
+4. Execute the test again with 60 virtual users by executing the following command.
 
     ```
     <copy>cd $MSDATAWORKSHOP_LOCATION/k6; ./test.sh 60</copy>
@@ -94,7 +94,7 @@ This lab assumes that you have already completed labs 1 through 4.
 
 ![](images/60vus2replica.png " ")
 
-5. Execute a test with 90 virtual users by executing the following command.
+5. Execute a final test with 90 virtual users by executing the following command.
 
     ```
     <copy>cd $MSDATAWORKSHOP_LOCATION/k6; ./test.sh 90</copy>

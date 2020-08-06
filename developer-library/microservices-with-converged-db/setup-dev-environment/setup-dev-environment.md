@@ -5,6 +5,7 @@ This 25-minute lab will show you how to setup the Oracle Cloud Infrastructure Co
 
 ### Objectives
 
+* Collect important information that you will use throughout this workshop
 * Set up the OKE cluster
 * Set up the ATP databases
 
@@ -12,13 +13,13 @@ This 25-minute lab will show you how to setup the Oracle Cloud Infrastructure Co
 
 * An Oracle Cloud paid account or free trial. To sign up for a trial account with $300 in credits for 30 days, click [here](http://oracle.com/cloud/free).
 
-You will not be able to complete this workshop with the 'free always' account. Make sure that you select the free trial account with credits.
+ You will not be able to complete this workshop with the 'free always' account. Make sure that you select the free trial account with credits.
 
 ## **STEP 1**: Create the basic OCI resources
 You'll need to keep track of important information about the tenancy, such as resource IDs, Tenancy OCID, Region name, Object Storage Namespace and user OCID.
 
 1. Download and save <a href="files/msdataworkshop.properties" target="\_blank">msdataworkshop.properties</a> to store and keep track of the data you'll need in later labs. Open this file in a text editor.
-   You will later save this file to your root directory using Cloud Shell and source it for the workshop.
+   You will later copy this information to your root directory using Cloud Shell and source it for the workshop.
 
 2. On your Oracle Cloud account, open up the hamburger menu in the top-left corner of the Console. Choose **Administration > Tenancy Details**.
 

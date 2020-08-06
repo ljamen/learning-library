@@ -147,7 +147,7 @@ In order to divide and isolate cluster resources, you will create a cluster
 
  - $MSDATAWORKSHOP_LOCATION/**order-helidon**/src/main/resources/META-INF/microprofile-config.properties
 
- Open each file and verify that **tracing.host=jaeger-collector.msdataworkshop** and **tracing.port=14268**.
+ Open each file and verify that `tracing.host=jaeger-collector.msdataworkshop` and `tracing.port=14268`.
 
    ![demo-erd.png](images/tracingprops.png " ")
 
